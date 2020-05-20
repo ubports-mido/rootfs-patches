@@ -1,0 +1,12 @@
+diff --git a/etc/rc.local b/etc/rc.local
+index 65634dfa..81fbb674 100755
+--- a/etc/rc.local
++++ b/etc/rc.local
+@@ -10,5 +10,6 @@
+ # bits.
+ #
+ # By default this script does nothing.
+-
++mount -o bind /dev/null /usr/lib/arm-linux-gnueabihf/gstreamer-1.0/libgstandroidmedia.so
++mount -o bind /dev/null /usr/lib/arm-linux-gnueabihf/qt5/plugins/mediaservice/libaalmediaplayer.so
+ exit 0
