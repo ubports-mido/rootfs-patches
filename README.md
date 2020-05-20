@@ -12,5 +12,5 @@ installing the media decoding library
 
 Instructions :
 
-1) Extract the rootfs and cd into it, then run git-apply <Path to patch>
+1) Extract the rootfs(using fakeroot) and cd into it, then run git-apply <Path to patch>
 2) Compress the rootfs back and use  
